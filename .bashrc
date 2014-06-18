@@ -33,4 +33,6 @@ alias gb='git branch'
 alias gm='git merge'
 alias gg='git glog'
 alias gd='git diff'
+alias gsb='git pull && git submodule init && git submodule update --init --recursive'
+alias go='git push origin'
 
